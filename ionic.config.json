@@ -1,0 +1,7 @@
+{
+  "name": "appAdg",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

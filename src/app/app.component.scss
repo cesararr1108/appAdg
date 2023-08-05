@@ -1,0 +1,18 @@
+ion-header{
+    box-shadow: none;
+}
+ion-toolbar {
+    --background: #00bfbc; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto en el encabezado */
+    
+  }
+  
+  ion-searchbar {
+    flex: 1; /* Expande la caja de búsqueda para llenar el espacio disponible */
+    margin: 5px; /* Margen para separar los elementos */
+  }
+  
+  ion-button {
+    margin: 5px; /* Margen para separar los botones */
+  }
+  

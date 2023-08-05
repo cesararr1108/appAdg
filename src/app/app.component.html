@@ -1,0 +1,25 @@
+<ion-app>
+  <ion-header no-shadow>
+    <ion-toolbar>
+      <!-- Caja de búsqueda -->
+      <ion-searchbar placeholder="Buscar"></ion-searchbar>
+      
+      <!-- Botón de ver carrito de compra -->
+      <ion-buttons slot="end">
+        <ion-button>
+          <ion-icon slot="icon-only" name="cart"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+  
+      <!-- Botón de logout -->
+      <ion-buttons slot="end">
+        <ion-button>
+          <ion-icon name="log-out-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  
+  <ion-router-outlet></ion-router-outlet>
+</ion-app>
